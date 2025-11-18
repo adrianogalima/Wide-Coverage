@@ -82,6 +82,10 @@ p {
 
 @media screen and (max-width: 600px) {
 
+* {
+    overflow: hidden;
+}
+
     header {
         display: flex;
         align-items: center;
@@ -91,12 +95,13 @@ p {
     }
 
     .link-header {
-        font-size: 11px;
+        font-size: 10px;
         align-items: center;
+        margin: auto;
     }
 
     .logo {
-        margin: 80px auto 0 auto;
+        margin: 30px auto 0 auto;
         display: block;
         text-align: center;
         width: 60%;
@@ -111,7 +116,7 @@ p {
 
     h1 {
         width: 100%;
-        font-size: 48px;
+        font-size: 28px;
         line-height: 60px;
     }
 
